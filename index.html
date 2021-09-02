@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="logos/icon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bosh Sahifa | Termiz Hayvonot Bog'i</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-5.1.0-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div id="internet">
+        <a target="_blank" href="https://instagram.com/termizzoo" id="instagram"><i class="fa fa-instagram"></i></a>
+        <a target="_blank" href="https://t.me/termiz_zoo_rasmiy" id="telegram"><i class="fa fa-telegram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100058687850061" id="facebook"><i class="fa fa-facebook"></i></a>
+    </div>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light " id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand text-uppercase text-danger" href="#">termiz z<i class="fa fa-paw"></i>o</a>
+            <button class="bg-transparent navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div  onclick="More(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>                
+                        <div class="bar3"></div>
+                </div>
+                <script>
+                    function More(x) {
+                        x.classList.toggle("change");
+                    }
+                </script>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 text-uppercase ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page " href="#header">Bosh Sahifa</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="about.html">Bog' haqida</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="gallery.html">Galareya</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#map">xarita</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+
+    <header class="mb-3 header header-section shadow" id="header">
+        <div class="filter "></div>
+        <div class="container align-items-center ">
+            <h1 class="text-light text-center pt-3 ">termiz Hayvonot Bog'ining rasmiy web saytiga xush kelibsiz !</h1>
+        </div>
+    </header>
+
+    <!-- Info -->
+
+    <section class="info">
+        <h1 id="info_name">hayvonot bogi haqida qisqacha ma'lumot</h1>
+        <div class="container ">
+            <div class="row pt-3 justify-content-center">
+                <div class="col-12 col-sm-9 col-md-6 col-lg-4 pt-3 position-relative">
+                    <div class="info  text-center">
+                        <img src="logos/tes.png " class="img-fluid w-100 pb-5 pt-5" alt="logo">
+                        <h5 class="pb-4 text-info ">Termiz hayvonot bog'i 1934 yilda viloyat o'lkashunoslik muzeyining tabiat bo'limida tashkil etilgan. 1939 yilda muzeyning tabiat bo'limi hayvonot bog'iga aylantirilgan.</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-9 col-md-6 col-lg-4 p-2 d-flex align-items-center justify-content-center ">
+                    <div class="info text-center text-info ">
+                        <img class="pb-2 img-fluid info-img " src="logos/clock.png " alt="clock">
+                        <h1 class="text-uppercase ">ish vaqti:</h1>
+                        <h4>Dushanba - Juma<br> 8:00 - 17:00</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-9 col-md-6 col-lg-4  p-3 ">
+                    <div class="info ">
+                        <img class="img-fluid " src="logos/type.png " alt="animals">
+                        <h4 class="text-center text-info pt-3 ">Termiz hayvonot bog'ida 127 tur, 756 bosh hayvonlar mavjud.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+
+    <!-- Gallery -->
+    <div id="galareya">
+        <p>Bog'</p>
+        <h1>galareyasi</h1>
+    </div>
+    <div id="carouselExampleIndicators" class="mx-auto carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active indicator_btn" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="indicator_btn" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="indicator_btn" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="indicator_btn" aria-label="Slide 4"></button>
+        </div>
+        <div class="slide-writing"></div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/30.jpg" class="d-block w-100" alt="Induk">
+                <div class="slide-writing d-block"></div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/buqalamun.jpg" class="d-block w-100" alt="...">
+                <div class="slide-writing"></div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/21.jpg" class="d-block w-100" alt="...">
+                <div class="slide-writing"></div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/7.jpg" class="d-block w-100" alt="...">
+                <div class="slide-writing"></div>
+            </div>
+        </div>
+        <button class="carousel-control-prev slide-controller" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+        <button class="carousel-control-next slide-controller" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+    </div>
+    <hr>
+
+
+    <!-- Map -->
+    <div id="map_name">
+        <p>bog'</p>
+        <h1>Xaritasi</h1>
+    </div>
+    <div id="map" class="m-0" style="height: 350px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.6081295656254!2d67.25592081534762!3d37.214192279865394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f352e3e604e07d1%3A0xaf373f8df8287f!2z0JfQvtC-0L_QsNGA0Lo!5e1!3m2!1sru!2s!4v1629534397751!5m2!1sru!2s "
+            width="100% " height="350" style="border:0; margin: 0; padding: 0;" allowfullscreen=" " loading="lazy "></iframe>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer m-0 text-center pb-1">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="row g-0 w-100">
+                <div class="col-12 f_internet p-2 d-block">
+                    <a class="text-secondary insta_f" target="_blank" href="https://instagram.com/termizzoo"><i class="fa fa-instagram pe-3"></i></a>
+                    <a class="text-secondary tg_f" target="_blank" href="https://t.me/termiz_zoo_rasmiy"><i class="fa fa-telegram pe-3"></i></a>
+                    <a class="text-secondary fb_f" target="_blank" href="https://www.facebook.com/profile.php?id=100058687850061"><i class="fa fa-facebook"></i></a>
+                </div>
+                <div class="col-12 col-sm-6 text-secondary p-2 pb-3">
+                    <h3>Email pochta manzili:</h3>
+                    zootermiz@umail.uz <br> zootermiz@mail.ru
+                </div>
+                <div class="col-12 col-sm-6 text-secondary p-2 pb-3">
+                    <h3>Telefon raqam:</h3>
+                    76 223 65 57 <br> 76 223 65 40
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="row cop g-0">
+        <div class="col-12 col-sm-6 f_copyright">
+            <p class="text-secondary"><i class="fa fa-copyright"></i>2021 Termiz Hayvonot Bog'i</p>
+        </div>
+        <div class="col-12 col-sm-6 text-secondary">
+            Creator <a target="_blank" href="https://t.me/Shaedul_Off" class="link-light">Shaedul_Off</a>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+
+    <script src="css/bootstrap-5.1.0-dist/js/bootstrap.bundle.js "></script>
+</body>
+
+</html>

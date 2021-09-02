@@ -1,0 +1,147 @@
+.header-section {
+    background-image: url(../img/30.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    padding: 120px 0;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 green;
+}
+
+.filter {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* Info */
+
+.info-img {
+    width: 80%;
+}
+
+#info_name {
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* gallery*/
+
+#filt {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 1);
+    position: absolute;
+}
+
+#galareya {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.carousel-inner {
+    z-index: -1 !important;
+}
+
+.indicator_btn {
+    border-radius: 50%;
+    background-color: #000 !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+#carouselExampleIndicators .slide-controller {
+    background-color: #000 !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 5px;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+
+#carouselExampleIndicators .slide-controller:first-of-type {
+    left: 15px !important;
+}
+
+#carouselExampleIndicators .slide-controller:last-of-type {
+    right: 15px !important;
+}
+
+.carousel-item {
+    position: relative !important;
+}
+
+.slide-writing {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(5, 55, 129, 0.162);
+}
+
+.carousel,
+#carouselExampleIndicators,
+.slide {
+    width: auto !important;
+}
+
+
+/* map */
+
+#map_name {
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+
+/* Responsive part */
+
+@media (max-width: 500px) {
+    #carouselExampleIndicators .slide-controller {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .indicator_btn {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .carousel-indicators {
+        margin-bottom: 3px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-section {
+        padding: 160px 0;
+    }
+}
+
+@media (min-width: 576px) {
+    .info-img {
+        width: 70%;
+    }
+    .carousel,
+    #carouselExampleIndicators,
+    .slide {
+        width: 75% !important;
+    }
+}

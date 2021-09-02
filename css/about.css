@@ -1,0 +1,17 @@
+.a_space {
+    width: 20px;
+    height: 5px;
+    padding: 0 5px;
+}
+
+@media (max-width: 992px) {
+    .text {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .text {
+        font-size: 15px !important;
+    }
+}

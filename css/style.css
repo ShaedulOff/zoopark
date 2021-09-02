@@ -1,0 +1,122 @@
+/* Navbar */
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-6px, 5px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-6px, -6px);
+}
+
+
+/*  internet */
+
+#internet {
+    z-index: 1000;
+}
+
+#internet a {
+    z-index: 1000;
+    position: fixed;
+    right: -15px;
+    font-size: 35px;
+    margin-top: 300px;
+    transition: 0.3s;
+    width: 65px;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    height: 50px;
+    text-decoration: none;
+}
+
+#internet a:hover {
+    right: 0;
+}
+
+#telegram {
+    top: 20px;
+    background-color: #2AA1DD;
+}
+
+#telegram i {
+    margin-left: 7px;
+}
+
+#instagram {
+    top: 70px;
+    background: linear-gradient(#5A5FCE, #CE2589, #FDBF5C);
+}
+
+#instagram i {
+    margin-left: 10px;
+}
+
+#facebook {
+    top: 120px;
+    background: linear-gradient(#15A3FA, #0269E3);
+}
+
+#facebook i {
+    margin-left: 15px;
+}
+
+
+/* Footer */
+
+.footer {
+    font-size: 20px;
+    font-family: monospace;
+    background: #222;
+}
+
+.insta_f i:hover {
+    color: #C7288D;
+}
+
+.tg_f i:hover {
+    color: #2AA1DD;
+}
+
+.fb_f i:hover {
+    color: #087DEB;
+}
+
+.f_internet {
+    font-size: 35px;
+}
+
+.f_copyright p {
+    margin: 0;
+    padding: 0;
+}
+
+.cop {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    background: #000;
+    padding: 10px;
+}
+
+@media (max-width: 700px) {
+    #internet {
+        display: none;
+    }
+}
